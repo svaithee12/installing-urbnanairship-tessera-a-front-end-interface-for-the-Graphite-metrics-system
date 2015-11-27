@@ -1,0 +1,22 @@
+cd /tessera
+
+the following "inv" commands will work only if you have completed step1 successfully
+
+1. inv db.init
+2. inv run &
+3. inv json.import 'demo/*'
+      import will work only when the service is running
+      
+4. EDIT the config file of tessera
+      nano /tessera/tessera-server/tessera/config.py
+      
+  Fill in the graphite auth, graphite URL and postgresql 
+    
+      DASHBOARD_APPNAME          = 'Tessera'
+      SQLALCHEMY_DATABASE_URI    = 'postgresql://username:password@localhost/graphite'
+      GRAPHITE_AUTH              = 'root'
+      
+5.inv run 
+
+      
+
