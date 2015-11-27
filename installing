@@ -1,0 +1,28 @@
+1. clone the repo from github
+  git clone https://github.com/urbanairship/tessera.git
+
+
+2. cd tessera
+
+3. virtualenv .
+
+4. . bin/activate
+
+5. cd tessera-server
+
+6. pip install -r requirements.txt
+   pip install -r dev-requirements.txt
+   
+7. cd ..
+   cd tessera-frontend
+
+9. make sure npm and nodejs-* are installed already and then run the following commands
+   grunt is a javascript task runner 
+     npm install -g grunt-cli
+     npm install
+     grunt
+   grunt should be up and running 
+   
+10. grunt watch &
+    to run grunt in the background 
+  
