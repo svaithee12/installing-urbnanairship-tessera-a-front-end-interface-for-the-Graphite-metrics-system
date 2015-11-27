@@ -1,6 +1,5 @@
 cd /tessera
-
-the following "inv" commands will work only if you have completed step1 successfully
+THE FOLLOWING "INV" COMMANDS WILL WORK ONLY WHEN STEP1 IS COMPLETED SUCCESSFULLY
 
 1. inv db.init
 2. inv run &
@@ -18,5 +17,12 @@ the following "inv" commands will work only if you have completed step1 successf
       
 5.inv run 
 
-      
+IMPORTING GRAPHS FROM GRAPHITE
+
+1. SAVE dashboards in graphite dahsboard
+
+2. run the following command in /tessera/tessera-server/ 
+     inv graphite.import
+     
+     
 
