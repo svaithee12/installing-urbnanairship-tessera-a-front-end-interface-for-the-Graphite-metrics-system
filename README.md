@@ -1,4 +1,4 @@
-This repository contains the procedure to setup tessera fro graphite.
+This repository contains the procedure to setup tessera for graphite.
 
 
 Reference : 
